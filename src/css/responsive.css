@@ -1,0 +1,305 @@
+@media (max-width: 1450px) {
+
+    #trend-pic > img:nth-child(3) {
+        display: none;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    #trends-newsletter > form {
+        flex-direction: column;
+        align-items: end;
+        justify-content: right;
+    }
+
+    #trends-newsletter > form > label > input[type=email] {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 1172px) {
+
+    .service-box .service-paragraph {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container {
+        padding: 0 5% 0 5%;
+    }
+
+    #header {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    #welcome-text > p {
+        margin-top: 150px;
+    }
+
+    .service-box {
+        margin-right: 15px;
+    }
+
+    .service-box .service-paragraph {
+        font-size: 14px;
+    }
+
+    #trends-pagination-box > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #trend-pic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #trend-pic > img:nth-child(2),
+    #trend-pic > img:nth-child(3) {
+        display: none;
+    }
+
+    #section-title-box h2 {
+        width: 90%;
+    }
+
+    #find-room-paragraph > p,
+    .new-arrivals,
+    #trends-pagination-box > p:nth-child(2),
+    #footer .footer-link,
+    #footer-blog-paragraph,
+    #copyright {
+        font-size: 16px;
+    }
+
+    #footer .footer-links-group-title,
+    #footer-blog-title {
+        font-size: 20px;
+    }
+
+    #bedroom .img-box p {
+        position: relative;
+        left: 52%;
+        font-size: 45px;
+    }
+
+    #living-room .img-box p {
+        position: relative;
+        left: 52%;
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    #title-paragraph p:nth-child(1) {
+        font-size: 45px;
+
+        line-height: 130%;
+    }
+
+    #title-paragraph p:nth-child(2) {
+        font-size: 18px;
+    }
+
+    #trends-newsletter > form {
+        flex-direction: row;
+        align-items: end;
+        justify-content: right;
+    }
+
+    #trends-pagination-box > div:nth-child(1) > p:nth-child(2) {
+        width: 60%;
+        padding-left: 28%;
+    }
+
+    #trends-newsletter > form > label > input[type=email] {
+        margin-top: 25px;
+    }
+
+    #trends-pagination-box > div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #find-room-paragraph {
+        display: none;
+    }
+}
+
+@media (max-width: 770px) {
+
+    .container{
+        padding: 0;
+    }
+
+    #background-section {
+        display: none;
+    }
+
+    #welcome-section {
+        justify-content: center;
+
+        background-image: url("../assets/img/picture1.png");
+        background-repeat: no-repeat;
+
+        height: 850px;
+
+        background-size: cover;
+    }
+
+    #logotype {
+        color: white;
+    }
+
+    .header-nav {
+        color: white;
+    }
+
+    #welcome-text > p {
+        color: white;
+    }
+
+    #title-paragraph p:nth-child(1) {
+        color: white;
+    }
+
+    #title-paragraph p:nth-child(2) {
+        color: white;
+    }
+
+    #welcome-content {
+        padding: 0;
+    }
+
+    #welcome-text {
+        align-items: center;
+    }
+
+    #text-group {
+        text-align: center;
+    }
+
+    #title-paragraph > p:nth-child(2) {
+        text-align: center;
+    }
+
+    #select-room {
+        flex-direction: column
+    }
+
+    #bedroom .img-box,
+    #living-room .img-box {
+        width: 100%;
+        justify-content: left;
+    }
+
+    #bedroom .new-arrivals,
+    #living-room .new-arrivals {
+        justify-content: left;
+    }
+
+    .room-type-block {
+        width: 100%;
+        margin: 30px 0 30px 0;
+        position: static;
+    }
+
+    #find-room {
+        padding: 0 13% 0 13%;
+    }
+
+    #find-room h1 {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    #pagination {
+        margin-top: 0;
+    }
+
+    #trends-newsletter {
+        justify-content: center;
+    }
+
+    #trends-title-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #side-to-design {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #section-title-box h2 {
+        width: 100%;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    #title-link-box {
+        justify-content: center;
+
+        margin-top: 0;
+    }
+
+    #services {
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    #blog {
+        display: none;
+    }
+
+    #section-title-box {
+        width: 70%;
+    }
+
+    #footer-content {
+        justify-content: space-around;
+    }
+
+    #links-group .footer-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 610px) {
+    #welcome-content {
+        width: 80%;
+    }
+
+    #trends-pagination-box {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #footer-links-about {
+        display: none;
+    }
+
+    #trends-title-group h2 {
+        text-align: center;
+    }
+
+    #trends-newsletter > form {
+        justify-content: center;
+    }
+
+    #trends-newsletter > form > label > input[type=email] {
+        margin-bottom: 15px;
+    }
+}
